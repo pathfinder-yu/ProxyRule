@@ -1,3 +1,3 @@
 # Microsoft Copilot 侧边栏相关规则------------------------------------------------------------------------------
-- DOMAIN-SUFFIX,edgeservices.bing.com,AI
+- DOMAIN-SUFFIX,edgeservices.bing.com,Ai
 - DOMAIN,config.edge.skype.com,Ai
