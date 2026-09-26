@@ -1,0 +1,16 @@
+payload:
+  # Meta / Oculus
+  - DOMAIN-SUFFIX,meta.com
+  - DOMAIN-SUFFIX,metacdn.com
+  - DOMAIN-SUFFIX,oculus.com
+  - DOMAIN-SUFFIX,oculuscdn.com
+  - DOMAIN-SUFFIX,oculusvr.com
+
+  # Facebook shared infrastructure / CDN
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,facebook.net
+  - DOMAIN-SUFFIX,fbsbx.com
+
+  # Meta AI / Threads / shared APIs
+  - DOMAIN-SUFFIX,threads.net
+  - DOMAIN-SUFFIX,meta.ai
