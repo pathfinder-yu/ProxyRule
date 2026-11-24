@@ -1,16 +1,13 @@
-# --- 1. Copilot 与 Bing 搜索走代理（必须置于微软直连规则上方） ---
+# --- Copilot 与 Bing 搜索走代理（必须置于微软直连规则上方） ---
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,copilot.cloud.microsoft
 DOMAIN,access-point.cloudmessaging.edge.microsoft.com
 DOMAIN-SUFFIX,designer.microsoft.com
 DOMAIN,gateway.bingviz.microsoft.net
-# 如使用 M365 Copilot 企业版高级功能可取消下方注释
-# - DOMAIN-SUFFIX,gateway.prod.island.powerapps.com
-
-# Bing 搜索及静态资源（也可直接用 - GEOSITE,bing 替代以下三条）
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.net
 DOMAIN-SUFFIX,bingapis.com
-
-# --- 2. 微软其余服务保持直连（OneDrive / Office / 账号登录 / 系统更新） ---
-GEOSITE,microsoft,DIRECT
+DOMAIN-SUFFIX,config.edge.skype.com
+DOMAIN-SUFFIX,edge.microsoft.com
+DOMAIN-SUFFIX,ecs.office.com
+DOMAIN-SUFFIX,cloud.microsoft
